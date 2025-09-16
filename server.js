@@ -6,7 +6,7 @@ const { OAuth2Client } = require('google-auth-library')
  
 const app = express()
 const PORT = 3000
-const id = '134654099641-g8a4ns198ns3u8c11shlvidrq67gastu.apps.googleusercontent.com'
+const id = '{SEU ID}'
 const client = new OAuth2Client(id)
  
 app.use(cors())          
